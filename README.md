@@ -1,2 +1,1 @@
-# html-project-1
- Mac and cheese recipe.
+# Simple Macaroni and Cheese Recipe
