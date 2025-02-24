@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: "Inter", "Helvetica", sans-serif;
+	font-size: 16px;
+}
+
+body {
+	background-color: #fbfbfb;
+	color: #2b2b2b;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	max-width: 50%;
+	background-color: #fdfff7;
+	padding: .5em 1.5em;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	border-radius: 50px;
+}
+
+h1,
+h2 {
+	border-bottom: 4px solid #fbaf00;
+}
+
+@media screen and (min-width: 1000px) {
+	.container {
+		max-width: 30%;
+	}
+}
